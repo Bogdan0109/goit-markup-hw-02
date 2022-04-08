@@ -10,6 +10,10 @@
   --title-color: #212121;
 }
 
+/* -----------------------------------INDEX.HTML------------------------------------ */
+
+/* -------------INDEX--------PORTFOLIO------------HEADER-----------FOOTER------------------------------------ */
+
 body {
   font-family: 'Roboto', 'sans-serif';
 
@@ -76,6 +80,8 @@ body {
 .header-tel:focus {
   color: var(--header-list-address-hover-color);
 }
+
+/* -----------------------------------INDEX.MAIN------------------------------------ */
 
 .hero {
   background-color: var(--background-color);
@@ -164,6 +170,8 @@ body {
   color: #757575;
 }
 
+/* -----------------INDEX-----------PORTFOLIO------------FOOTER------------------------------------ */
+
 .footer {
   background-color: var(--background-color);
 }
@@ -182,4 +190,44 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* -----------------------------------PORTFOLIO.HTML------------------------------------ */
+
+.hero-portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+
+  color: #212121;
+  background-color: #f5f4fa;
+}
+
+.hero-portfolio-btn:hover,
+.hero-portfolio-btn:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.hero-portfolio-list > .hero-portfolio-item {
+  background-color: #eeeeee;
+}
+
+.hero-portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.hero-portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+
+  color: #757575;
 }
