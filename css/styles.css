@@ -195,6 +195,10 @@ body {
 
 /* -----------------------------------PORTFOLIO.HTML------------------------------------ */
 
+.header-list .link.current {
+  color: var(--header-list-address-hover-color);
+}
+
 .hero-portfolio-btn {
   font-family: inherit;
   font-weight: 500;
