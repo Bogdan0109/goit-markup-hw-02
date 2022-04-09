@@ -130,7 +130,6 @@ body {
 }
 
 .features-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 
@@ -164,7 +163,6 @@ body {
 }
 
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
 
@@ -177,8 +175,11 @@ body {
   background-color: var(--background-color);
 }
 
+.footer-list {
+  font-style: normal;
+}
+
 .footer-maps {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 
@@ -187,7 +188,6 @@ body {
 
 .footer-mailto,
 .footer-tel {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
@@ -228,7 +228,6 @@ body {
 }
 
 .hero-portfolio-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
 
